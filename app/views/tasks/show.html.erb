@@ -1,0 +1,9 @@
+<h1>Welcome to fucking <%= @task.name %></h1>
+
+<h2>The task description is<%= @task.description %></h2>
+
+<%= link_to "Edit this task", edit_task_path(@task) %>
+
+<%= link_to "Back to list of task", tasks_path %>
+
+
